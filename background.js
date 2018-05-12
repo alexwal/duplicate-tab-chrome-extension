@@ -22,11 +22,3 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     duplicateCurrentTab();
   }
 });
-
-// Called when user presses keyboard shortcut defined in manifest.json (after customized in chrome://extensions/shortcuts)
-chrome.commands.onCommand.addListener(function(command) {
-  console.log('Command:', command);
-  if (command == "duplicate-current-tab-keyboard-shortcut") {
-  duplicateCurrentTab();
-  }
-});
