@@ -6,8 +6,6 @@ Finally! An open source extension for duplicating a tab with a click or keyboard
 
 <img src="chrome_store_images/duplicate_tab_screenshot_image_github.png" alt="Duplicate Tab by awal.io" width="400">
 
-Created by Alex Walczak (awal.io)
-
 FAQs
 ====
 
