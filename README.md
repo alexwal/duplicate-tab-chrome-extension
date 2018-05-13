@@ -20,7 +20,7 @@ Where can I find the source code?
 ------------------------------------
 https://github.com/alexwal/duplicate-tab-chrome-extension
 
-![Duplicate Tab by awal.io](chrome_store_images/duplicate_tab_screenshot_image_1280_800.png)
+<img src="chrome_store_images/duplicate_tab_screenshot_image_1280_800.png" alt="Duplicate Tab by awal.io" style="max-width:70%;">
 
 Created by Alex Walczak (awal.io)
 
