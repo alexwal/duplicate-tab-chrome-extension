@@ -15,7 +15,7 @@
   "browser_action": {
     "default_icon": "icon.png"
   },
-  "permissions": ["tabs", "tabs", "*://*/*"],
+  "permissions": ["tabs", "*://*/*"],
   "update_url": "http://clients2.google.com/service/update2/crx",
   "commands": {
     "_execute_browser_action": {
