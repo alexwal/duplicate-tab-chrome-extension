@@ -22,3 +22,26 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     duplicateCurrentTab();
   }
 });
+
+// On startup, we inject each tab with new script to avoid a refresh of all pages.
+var injectExtensionCode = function() {
+  chrome.tabs.query({}, function(tabs) {
+    var i = 0, n = tabs.length;
+    for ( ; i < n; i++ ) {
+      var tab = tabs[i];
+      chrome.tabs.executeScript(tab.id, {file: "content.js"});
+    }
+  });
+}
+
+// Check whether new version is installed; inject scripts (see injectExtensionCode).
+chrome.runtime.onInstalled.addListener(function(details) {
+    if (details.reason == "install") {
+        // alert("This is a first install!");
+        injectExtensionCode();
+    } else if (details.reason == "update") {
+        var thisVersion = chrome.runtime.getManifest().version;
+        // alert("Updated from " + details.previousVersion + " to " + thisVersion + "!");
+        injectExtensionCode();
+    }
+});
