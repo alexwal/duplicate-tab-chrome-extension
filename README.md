@@ -1,4 +1,4 @@
-# duplicate-tab-exension
+# Duplicate Tab by [awal.io](awal.io)
 
 Finally! An open source extension for duplicating a tab with a click or keyboard shortcut.
 [Check it out in the Chrome Web Store.](https://chrome.google.com/webstore/detail/lgfojgkhjjjkkfmhogmckcopmmpmpdjf)
@@ -20,7 +20,7 @@ Where can I find the source code?
 ------------------------------------
 https://github.com/alexwal/duplicate-tab-chrome-extension
 
-![Duplicate Tab by awal.io](chrome_store_images/duplicate_tab_screenshot_image_github.png)
+<img src="chrome_store_images/duplicate_tab_screenshot_image_github.png" alt="Duplicate Tab by awal.io" width="400">
 
 Created by Alex Walczak (awal.io)
 
