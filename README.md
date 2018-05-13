@@ -17,7 +17,7 @@ Ctrl+Shift+U, or on Mac Cmd+Shift+U
 How can I customize the keyboard shortcut?
 ---------------------------------------------
 
-Choose your shortcut in chrome://extensions/shortcuts.
+Choose your shortcut in [chrome://extensions/shortcuts](chrome://extensions/shortcuts).
 
 Where can I find the source code?
 ------------------------------------
