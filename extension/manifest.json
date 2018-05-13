@@ -2,7 +2,7 @@
   "author": "Alex Walczak (awal.io)",
   "manifest_version": 2,
   "name": "Duplicate Tab by awal.io",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "background": {
     "scripts": ["background.js"]
   },
