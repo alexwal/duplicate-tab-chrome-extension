@@ -3,15 +3,8 @@
 
 // Called when the user clicks on the browser action
 chrome.browserAction.onClicked.addListener(function(tab) {
-  // Duplicate the active tab
+  // Duplicate the active tab in the current window
   chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-    duplicateCurrentTab();
+    chrome.tabs.duplicate(tabs[0].id);
   });
 });
-
-// Duplicate the current tab
-function duplicateCurrentTab() {
-  chrome.tabs.getSelected(null, function(tab) {
-      chrome.tabs.duplicate(tab.id);
-  });
-}
