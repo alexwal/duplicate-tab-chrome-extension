@@ -1,17 +1,26 @@
 # duplicate-tab-exension
-[Check it out in the Chrome Web Store.](https://chrome.google.com/webstore/detail/lgfojgkhjjjkkfmhogmckcopmmpmpdjf)
 
 Finally! An open source extension for duplicating a tab with a click or keyboard shortcut.
+[Check it out in the Chrome Web Store.](https://chrome.google.com/webstore/detail/lgfojgkhjjjkkfmhogmckcopmmpmpdjf)
 
-### FAQs
-  - Q: What is the default keyboard shortcut?
-  - A: Ctrl+Shift+U, or on Mac Cmd+Shift+U
+FAQs
+====
 
-  - Q: How can I customize the keyboard shortcut?
-  - A: Choose your shortcut in chrome://extensions/shortcuts.
+What is the default keyboard shortcut?
+-----------------------------------------
 
-  - Q: Where can I find the source code?
-  - A:  https://github.com/alexwal/duplicate-tab-chrome-extension
+Ctrl+Shift+U, or on Mac Cmd+Shift+U
+
+How can I customize the keyboard shortcut?
+---------------------------------------------
+
+Choose your shortcut in chrome://extensions/shortcuts.
+
+Where can I find the source code?
+------------------------------------
+https://github.com/alexwal/duplicate-tab-chrome-extension
+
+![Duplicate Tab by awal.io](chrome_store_images/duplicate_tab_screenshot_image_1280_800.png)
 
 Created by Alex Walczak (awal.io)
 
